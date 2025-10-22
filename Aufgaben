@@ -1,0 +1,34 @@
+Aufgabe:
+  • Architekturdokumentation (Kontext- & Anwendungsfall- & Verteilungs-Diagramme mit Beschreibungen, Qualitätsanforderungen) auf GitHub der Anwendung Ihrer Gruppe
+  • Architekturpräsentation in der Klasse (15min)
+  • Kollaboration mit der "Community„ (Dozent) auf GitHub.
+
+Ergebnis: Resultat in einem Repository, Readme.md auf GitHub.
+
+Vorbereitung:
+− Erstellen Sie ein Repository für die Gruppe
+− Senden Sie dem Dozenten den Link mit ggf Berechtigung für das Repository
+
+Ergebnis:
+• Ein Repository auf GitHub für die Gruppenarbeit.
+• Das README.md beinhaltet:
+    • Struktur der Architekturdokumentation nach arc42
+    • Kurze Einführung in die Anwendung
+    • Ein Kontextdiagramm der Anwendung mit Kurzbeschreibung
+    • Ein Anwendungsfalldiagramme der Anwendungen mit Kurzbeschreibung
+    • Ein Verteilungsdiagramm der Anwendungen mit Kurzbeschreibung
+    • Mindestes drei Qualitätsanforderungen der Anwendung
+• Architekturpräsentation in der Klasse (15min) am 19.11
+
+Termine:
+• Link an Dozenten bis 21.10; Abschluss Dokumentation bis 16.11; Präsentation am 19.11
+• Erste Inhalte (z.B. im Entwurf) früh erstellen sodass Feedback des Dozenten möglich ist
+
+Hinweise:
+• Einige Inhalte der Diagramme müssen mittels Annahmen erstellen.
+• Bitte nicht zögern bei Fragen, Unklarheiten, Hindernissen den Dozenten zu kontaktieren
+
+
+
+Demo Repository von Björn
+https://github.com/bjoernmichels/SWA-Hausaufgaben
