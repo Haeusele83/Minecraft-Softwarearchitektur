@@ -1,4 +1,4 @@
-# Minecarft-Softwarearchitektur
+# Minecraft-Softwarearchitektur
 Gruppenarbeit Wirtschaftsinformatiker
 
 # Architektur-Dokumentation
