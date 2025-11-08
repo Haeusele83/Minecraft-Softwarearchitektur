@@ -50,8 +50,6 @@ mit Fokus auf strukturelle Muster, zentrale Bausteine und Qualitaetsanforderunge
 - Lehrpersonen und Bildungseinrichtungen (Education Edition)
 - Plattformbetreiber (Xbox, PlayStation, Nintendo, App Stores)
 
----
-
 ## 2. Randbedingungen
 
 ### 2.1 Technische Randbedingungen
@@ -89,8 +87,6 @@ mit Fokus auf strukturelle Muster, zentrale Bausteine und Qualitaetsanforderunge
 - Richtlinien fuer Serverbetreiber (Monetarisierung, Transparenz, faire Nutzung)
 - Einhaltung von Datenschutz- und Compliance-Vorgaben fuer Online-Dienste
 - Einhaltung von Plattformrichtlinien (Konsolen, App-Stores, Online-Services)
-
----
 
 ## 3. Kontextabgrenzung
 
@@ -135,8 +131,6 @@ mit Fokus auf strukturelle Muster, zentrale Bausteine und Qualitaetsanforderunge
   - nutzt optional Modding-/Plugin-Schnittstellen
 - Externe Systeme (Stores, Marketplace, Modding-Plattformen) liefern Inhalte, aber laufen ausserhalb des Kernsystems.
 
----
-
 ## 4. Loesungsstrategie
 
 ### 4.1 Architekturstil und Leitprinzipien
@@ -169,8 +163,6 @@ mit Fokus auf strukturelle Muster, zentrale Bausteine und Qualitaetsanforderunge
   - Konfigurierbare Rechte und Rollen
 - **Plattformvielfalt**
   - Abstraktionsschichten fuer Grafik, Eingabe, Dateisystem, Netzwerk
-
----
 
 ## 5. Bausteinsicht (Building Block View)
 
@@ -1096,7 +1088,3 @@ Ist paketbasiert, versionsabhaengig und umfasst u. a. Login, Welt-Updates, Entit
 **Whitelist / Banliste / Permissions**  
 Konfigurationsmechanismen zur Zugangs- und Rechteverwaltung.  
 Steuern, wer auf einem Server spielen darf und welche Befehle oder Aktionen erlaubt sind.
-
----
-
-Dieses Glossar kann bei Bedarf projekt- oder kursbezogen ergaenzt werden, z. B. um spezifische Begriffe aus verwendeten Mod-Loadern, Serverplattformen oder Schulungsumgebungen.
