@@ -1,18 +1,18 @@
 # arc42 Architektur-Dokumentation  
-## Minecraft – Referenzarchitektur (didaktisches Modell)
+## Minecraft – Referenzarchitektur
 
-**Hinweis**  
-Diese Dokumentation beschreibt Minecraft als abstrahierte Referenzarchitektur auf Basis des arc42-Templates.  
-Sie dient Ausbildungszwecken und ersetzt keine interne Dokumentation von Mojang/Microsoft.  
-Technische Details sind vereinfacht, orientieren sich aber an beobachtbarem Verhalten und oeffentlich zugaenglichen Informationen (Stand 2025).
-
----
 
 ## 1. Einfuehrung und Ziele
 
-### 1.1 Aufgabenstellung
+### 1.1 Beschreibung der Anwendung
+Minecraft ist eine Open-World-Sandbox-Anwendung, in der Benutzer eine virtuelle Welt aus Blöcken erkunden, gestalten und verändern können.
+Das System kombiniert Elemente von Simulation, Kreativität, Überleben und Mehrspieler-Interaktion.
+Minecraft ist in Java (für die Java Edition) bzw. in C++ (für die Bedrock Edition) entwickelt und läuft plattformübergreifend auf Windows, macOS, Linux, Konsolen und Mobilgeräten.
 
-Minecraft ist eine blockbasierte Open-World-Sandbox, in der Spielende eine prozedural generierte Welt erkunden, Ressourcen sammeln, bauen, handeln, kaempfen und in unterschiedlichen Spielmodi interagieren. Die Architektur muss:
+### 1.2 Aufgabenstellung
+
+Ziel der Anwendung ist es, den Benutzerinnen und Benutzern eine interaktive, offene Umgebung zu bieten, in der sie eigene Welten erschaffen, Ressourcen sammeln, Gegenstände herstellen und gemeinsam mit anderen Spielern interagieren können.
+Minecraft fördert damit Kreativität, Problemlösung und Zusammenarbeit. Die Architektur muss:
 
 - grosse, persistente Welten effizient verwalten
 - Einzel- und Mehrspielermodi unterstuetzen
@@ -28,7 +28,7 @@ Diese Dokumentation beschreibt eine konsolidierte, didaktische Architektur von:
 
 mit Fokus auf strukturelle Muster, zentrale Bausteine und Qualitaetsanforderungen.
 
-### 1.2 Qualitaetsziele (Top-Level)
+### 1.3 Qualitaetsziele
 
 1. **Performance & Skalierung**  
    Fluessiges Spielerlebnis auch bei grossen Welten, vielen Entitaeten und vielen Spielenden.
@@ -41,7 +41,7 @@ mit Fokus auf strukturelle Muster, zentrale Bausteine und Qualitaetsanforderunge
 5. **Plattformvielfalt & Konsistenz**  
    Vergleichbares Spielerlebnis auf PC, Konsole, Mobile und in Bildungsszenarien.
 
-### 1.3 Stakeholder
+### 1.4 Stakeholder
 
 - Spielende (Casual, Pro, Kreativ, Survival)
 - Community-Entwicklerinnen und -Entwickler (Mods, Plugins, Tools)
